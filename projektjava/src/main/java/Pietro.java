@@ -8,7 +8,7 @@ public class Pietro implements Powierzchnia{
     public int policzPole(){
         int pole = 0;
         
-        for(ElementyPietra e : elementy){
+        for(ElementPietra e : elementy){
             pole+=e.policzPole();
         }
         return pole;
